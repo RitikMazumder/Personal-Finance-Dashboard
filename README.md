@@ -6,7 +6,7 @@
 Frontend (React + Vite)
 
 ## Deployed App
-Frontend: https://personal-finance-dashboard.netlify.app
+Frontend: personalfitnessdasboard.netlify.app
 
 ## ✨ Features
 - Dashboard summary of income, expenses, and savings
