@@ -1,16 +1,66 @@
-# React + Vite
+Personal Finance Dashboard
+Introduction
+This project is a personal finance dashboard built using React + Vite, designed to help users like Michael track income, expenses, savings goals, and budgets in a clean, intuitive interface. The goal was to strengthen frontend development skills while building a practical, real-world application that promotes financial awareness and planning.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Type
+Frontend (React + Vite)
 
-Currently, two official plugins are available:
+Deployed App
+Frontend: https://personal-finance-dashboard.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Features
+• 	Dashboard summary of income, expenses, and savings
+• 	Add income and expense transactions
+• 	Create and track savings goals
+• 	Monthly budget planner with editable categories
+• 	Transaction history list
+• 	Responsive layout for desktop and mobile
+• 	Data persistence using browser local storage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Design Decisions & Assumptions
+• 	Used local storage to persist data instead of a backend
+• 	Focused on clarity and usability over animations or complex UI
+• 	Designed with a desktop-first approach, then adapted for mobile
+• 	Prioritized modular components for future scalability
 
-## Expanding the ESLint configuration
+Installation & Getting Started
+No backend or database setup is required. To run locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then open http://localhost:5173 in your browser.
+
+Usage
+• 	View your financial summary on the dashboard
+• 	Add income or expense entries with descriptions
+• 	Set savings goals and track progress
+• 	Create monthly budgets for categories like groceries or entertainment
+• 	Review your transaction history and adjust your spending
+
+Credentials
+No authentication is required. All data is stored locally in the browser.
+
+APIs Used
+No external APIs were used in this project.
+
+Technology Stack
+• 	React — Component-based UI
+• 	Vite — Fast build tool and dev server
+• 	CSS — Custom styling with responsive layout
+• 	JavaScript (ES6+) — App logic and interactivity
+• 	LocalStorage — Data persistence
+
+Contributor
+• 	Ritik — Solo developer
+• 	UI/UX design
+• 	Component architecture
+• 	State management
+• 	Styling and responsiveness
+• 	Documentation
+
+Future Improvements
+• 	Add charts and graphs for financial insights (e.g., using Chart.js)
+• 	Implement bill reminders and due date alerts
+• 	Add recurring transactions and forecasting
+• 	Integrate authentication and cloud-based storage
+• 	Export monthly reports as PDF or CSV
+• 	Improve mobile responsiveness and accessibility
